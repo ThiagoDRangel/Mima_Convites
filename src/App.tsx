@@ -1,5 +1,3 @@
-import Card from "./components/Card";
-import Header from "./components/Header/intex";
 import Home from "./pages/Home";
 
 function App() {
@@ -7,8 +5,6 @@ function App() {
   return (
     <>
       <Home />
-      <Header />
-      <Card />
     </>
   )
 }

@@ -1,0 +1,9 @@
+img {
+    width: 50rem;
+}
+
+.container-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}

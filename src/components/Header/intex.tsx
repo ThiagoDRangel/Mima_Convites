@@ -1,7 +1,18 @@
+import './styles.css';
+
+
 function Header () {
     return (
         <header>
-        <h1>Header</h1>
+            <ul className="container-header">
+                <li>UNIVERSOS</li>
+                <li>CHÁ DE BEBÊ</li>
+                <li>CHÁ REVELAÇÃO</li>
+                <li>ANIVERSÁRIO</li>
+                <li>BATIZADO</li>
+                <li>LEMBRETE</li>
+                <li>RETROSPECTIVA</li>
+            </ul>
         </header>
     );
 }
