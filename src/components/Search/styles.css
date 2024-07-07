@@ -1,0 +1,26 @@
+.container-search {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.element-search {
+    border: none;
+    border-radius: 2rem 0 0 2rem;
+    height: 4.5rem;
+    width: 60rem;
+}
+
+.container-search-btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 2rem;
+    border: none;
+    border-radius: 0 2rem 2rem 0;;
+    height: 4.5rem;
+    width: 20rem;
+}
