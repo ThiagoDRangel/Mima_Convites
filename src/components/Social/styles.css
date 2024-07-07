@@ -1,0 +1,31 @@
+.container-social {
+    align-items: center;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 100%;
+}
+.container-social-left {
+    align-items: center;
+    display: flex;
+}
+
+.container-social-right {
+    align-items: center;
+    display: flex;
+}
+
+li {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+@media (max-width:1281px) {}
+@media (max-width:1025px) {}
+@media (max-width:801px) {}
+@media (max-width:600px) {}
+@media (max-width:480px) {}
+@media (max-width:320px) {}
