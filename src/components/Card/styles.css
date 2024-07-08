@@ -1,9 +1,40 @@
-img {
+.container-img {
+    align-items: flex-start;
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.container-img-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-img-3 {
+    display: flex;
+    gap: 2rem;
+}
+
+.img-1 {
+    height: 62rem;
     width: 50rem;
 }
 
-.container-img {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 4rem;
+.img-2 {
+    height: 30rem;
+    width: 52rem;
 }
+
+.img-3 {
+    height: 30rem;
+    width: 25rem;
+}
+
+.img-4 {
+    height: 30rem;
+    width: 25rem;
+}
+
